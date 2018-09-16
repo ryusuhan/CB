@@ -29,7 +29,7 @@ router.get('/', async(req,res) => {
 	//		type : "buttons",
 	//		buttons : key
 	//	});
-	}
+	//}
 });
 
 module.exports = router;
