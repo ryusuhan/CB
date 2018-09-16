@@ -14,7 +14,7 @@ router.get('/', async(req,res) => {
 	}
 
 	// 전송하기
-	if(content == "처음으로"){
+	if(req == "처음으로"){
 		res.status(200).send({
 			message : {
 				text : "서비스 선택!!\n\n"
@@ -24,7 +24,7 @@ router.get('/', async(req,res) => {
 				buttons: key
 			}
 		});
-	}else if(content == "keyboard"){
+	}else if(req == "keyboard"){
 		res.status(200).send({
 			type : "buttons",
 			buttons : key
