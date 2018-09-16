@@ -28,7 +28,7 @@ router.get('/', async(req,res) => {
 	//	res.status(200).send({
 	//		type : "buttons",
 	//		buttons : key
-	//	});
+		});
 	//}
 });
 
